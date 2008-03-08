@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<icons>
+	<!-- Basics-->
+	<class name="32770" image="WndDialog.bmp"/>
+	<class name="#32770" image="WndDialog.bmp"/>
+	<class name="ComboBox" image="WndComboBox.bmp"/>
+	<class name="Button" image="WndButton.bmp"/>
+	<class name="Edit" image="WndEdit.bmp"/>
+	<class name="ScrollBar" image="WndScrollBar.bmp"/>
+	<class name="Static" image="WndLabel.bmp"/>
+	<class name="ListBox" image="WndListBox.bmp"/>
+	<class name="RichEdit20W" image="WndRichEdit.bmp"/>
+	<!-- Win32 Controls -->
+	<class name="tooltips_class32" image="WndTooltip.bmp"/>
+	<class name="ToolbarWindow32" image="WndToolbar.bmp"/>
+	<class name="SysListView32" image="WndListView.bmp"/>
+	<class name="SysHeader32" image="WndListViewHeader.bmp"/>
+	<class name="SysTabControl32" image="WndTabControl.bmp"/>
+	<class name="SysTreeView32" image="WndTreeView.bmp"/>
+	<class name="DavesFrameClass" image="WndFrame.bmp"/>
+	<class name="msctls_progress32" image="WndProgress.bmp"/>
+	<class name="msctls_statusbar32" image="WndStatusBar.bmp"/>
+	<class name="msctls_updown32" image="WndUpDown.bmp"/>
+	<!-- ReBarWindow32-->
+	<!-- .NET Framework Windows -->
+	<class name="WindowsForms10.EDIT.app" image="WndEdit.bmp" startsWith="true"/>
+	<class name="WindowsForms10.LISTBOX.app" image="WndListBox.bmp" startsWith="true"/>
+	<class name="WindowsForms10.BUTTON.app" image="WndButton.bmp" startsWith="true"/>
+	<class name="WindowsForms10.COMBOBOX.app" image="WndComboBox.bmp" startsWith="true"/>
+	<class name="WindowsForms10.STATIC.app" image="WndLabel.bmp" startsWith="true"/>
+	<class name="WindowsForms10.SCROLLBAR.app" image="WndScrollBar.bmp" startsWith="true"/>
+	<class name="WindowsForms10.SysTabControl32.app" image="WndTabControl.bmp" startsWith="true"/>
+	<class name="WindowsForms10.ToolbarWindow32.app" image="WndToolbar.bmp" startsWith="true"/>
+	<class name="WindowsForms10.SysListView32.app" image="WndListView.bmp" startsWith="true"/>
+	<class name="WindowsForms10.SysTreeView32.app" image="WndTreeView.bmp" startsWith="true"/>
+	<class name="WindowsForms10.msctls_statusbar32.app" image="WndStatusBar.bmp" startsWith="true"/>
+	<class name="WindowsForms10.tooltips_class32.app" image="WndTooltip.bmp" startsWith="true"/>
+	<!-- Visual Studio -->
+	<class name="VsStatusBar" image="WndStatusBar.bmp"/>
+	<class name="VsProgressBar" image="WndProgress.bmp"/>
+	<!-- VBFloatingPallete="FloatingPane", VsCompleterPane="Intellisense",
+	 VsTipWindow, GDI+ Hook Window Class,
+		VBSlider-->
+	<!-- Asus Probe -->
+	<class name="TBgListView" image="WndListView.bmp"/>
+	<class name="TListBox" image="WndListBox.bmp"/>
+	<!-- 他　-->
+	<class name="TBgTreeView" image="WndTreeView.bmp"/>
+	<class name="IME" image="WndIme.bmp"/>
+	<class name="ATOK16PaletteCommonWnd" image="WndAtokPalette.bmp"/>
+	<class name="ATOK16UI" image="WndAtokUi.bmp"/>
+	<class name="ComboLBox" image="WndComboBox.bmp"/>
+	<class name="ComboBoxEx32" image="WndComboBox.bmp"/>
+	<class name="REComboBox20W" image="WndComboBox.bmp"/>
+	<class name="OfficeTooltip" image="WndTooltip.bmp"/>
+	<!--
+//	<class name="TDateTimePicker" image=""/>
+//	<class name="TPanel" image=""/>
+// SysPager SysFader BaseBar WorkerW ReBarWindow32
+// ListTreeView32
+	 -->
+</icons>
