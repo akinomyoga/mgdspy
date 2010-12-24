@@ -1,0 +1,7 @@
+LIBRARY	"mgdspy_hk"
+
+EXPORTS
+	HookPoint=HookPoint					@1
+	HookPoint3=HookPoint3				@2
+;	hk_get_Data=GetData					@3
+;	hk_get_SpyWM=GetSpyWindowMessage	@4
