@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E141A6F-72FA-4C60-BB43-5B689BD3834E}"
 	ProjectSection(SolutionItems) = preProject
 		cppsource\Commands.cpp = cppsource\Commands.cpp
@@ -30,7 +32,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mwg.Win32", "mwg.Win32\mwg.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mgdspy_lib", "mgdspy_hb\mgdspy_lib.csproj", "{D5C4E1AC-9446-46FC-962D-0F605ED02613}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mgdspy_hk", "mgdspy_hk2\mgdspy_hk2.vcproj", "{8847C0BE-1264-49B8-8092-8D028352EAF4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mgdspy_hk", "mgdspy_hk2\mgdspy_hk2.vcxproj", "{8847C0BE-1264-49B8-8092-8D028352EAF4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServer", "RemotingServer\RemotingServer.csproj", "{B897A76C-A863-4B83-AEF4-90F58DA86EFD}"
 EndProject
@@ -121,6 +123,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABC7DF0B-4AB4-48FB-A939-D16EC3F78788}
 	EndGlobalSection
 	GlobalSection(TextTemplating) = postSolution
 		TextTemplating = 1

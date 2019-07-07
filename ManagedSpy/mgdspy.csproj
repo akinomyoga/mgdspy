@@ -1,4 +1,4 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
@@ -26,7 +26,8 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -95,7 +96,7 @@
       <Project>{D5C4E1AC-9446-46FC-962D-0F605ED02613}</Project>
       <Name>mgdspy_lib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\mgdspy_hk2\mgdspy_hk2.vcproj">
+    <ProjectReference Include="..\mgdspy_hk2\mgdspy_hk2.vcxproj">
       <Project>{8847C0BE-1264-49B8-8092-8D028352EAF4}</Project>
       <Name>mgdspy_hk</Name>
     </ProjectReference>

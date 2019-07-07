@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="mwg.Interop">
+      <UniqueIdentifier>{d33d05e2-fab7-4eed-bd4e-048d66db4b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mwg.ATL">
+      <UniqueIdentifier>{abe5eca8-e176-48db-92a2-fff8a7097840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mwg.Hook3">
+      <UniqueIdentifier>{5643945b-06f9-45b6-8560-b1a86cb0360f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>mwg.Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="HookPoint.cpp">
+      <Filter>mwg.Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="HookPoint3.cpp">
+      <Filter>mwg.Hook3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>ヘッダー ファイル</Filter>
+    </None>
+    <None Include="atlmacro_def.inl">
+      <Filter>mwg.ATL</Filter>
+    </None>
+    <None Include="atlmacro_undef.inl">
+      <Filter>mwg.ATL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>mwg.Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessLocals.h">
+      <Filter>mwg.Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMem.h">
+      <Filter>mwg.Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="TransTypeSerializer.h">
+      <Filter>mwg.Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="CAtlFile.h">
+      <Filter>mwg.ATL</Filter>
+    </ClInclude>
+    <ClInclude Include="CAtlFileMapping.h">
+      <Filter>mwg.ATL</Filter>
+    </ClInclude>
+    <ClInclude Include="CHandle.h">
+      <Filter>mwg.ATL</Filter>
+    </ClInclude>
+    <ClInclude Include="stdatl.h">
+      <Filter>mwg.ATL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="memo.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
